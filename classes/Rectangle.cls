@@ -18,6 +18,9 @@ public class Rectangle {
         System.debug('New Git Testing');
     }
 
+    public static void methodA() {
+        System.debug('Git Testing');
+    }
 
     private Boolean isDataCorrect() {
         if ((this.sideA != 0 && this.sideB != 0) && (this.sideA != null && this.sideB != null)) {
